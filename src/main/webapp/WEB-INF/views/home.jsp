@@ -9,7 +9,7 @@
   <p><hello:sayHello /></p>
   <spring:url value="/sample/point" var="action" />
   <form:form modelAttribute="homeForm" action="${action}">
-    <select id="users">
+    <select id="users" name="users">
   <c:forEach var="user" items="${userList}">
       <option value="${user.id}" >${user.name}<option/>
    </c:forEach>

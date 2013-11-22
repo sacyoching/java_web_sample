@@ -12,4 +12,5 @@
 	<select id="selectAll" resultMap="testResultMap">
 		SELECT * FROM USERS
 	</select>
+
 </mapper>
